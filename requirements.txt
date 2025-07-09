@@ -1,7 +1,17 @@
-fastapi
-uvicorn
-python-multipart
-pillow
-easyocr
-google-generativeai
-python-dotenv
+# Web framework and server
+fastapi>=0.100.0
+uvicorn>=0.22.0
+python-multipart>=0.0.6
+
+# Image processing
+pillow>=9.5.0
+opencv-python-headless>=4.7.0
+numpy>=1.24.0
+
+# AI
+google-generativeai>=0.3.0
+
+# Environment and utils
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pytest>=7.3.1
